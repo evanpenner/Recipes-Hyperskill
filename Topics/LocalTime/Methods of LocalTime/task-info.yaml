@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: ' The method <b>withSecond</b> creates a new instance'
+- text: The class has no methods for obtaining nanoseconds of an instance
+- text: The class has instance methods for adding and subtracting seconds
+- text: The invocation <b>LocalTime.ofSecondOfDay(3600)</b> creates an instance that
+    represents 01:00
+- text: ' The invocation <b>LocalTime.parse("11:59:50")</b> creates an instance that
+    represents 11 hours, 50 minutes, 59 seconds'
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2877#comment
+status: Unchecked
+record: -1
+local_check: false
